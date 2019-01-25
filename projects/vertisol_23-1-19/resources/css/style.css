@@ -191,7 +191,7 @@ footer .font-mobile{
 }
 
 .composition__photo:hover {
-      outline: .3rem solid #55c57a;
+      outline: .3rem solid #416ACA;
       transform: scale(2) translateY(-0.5rem);
     	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
       z-index: 20;
