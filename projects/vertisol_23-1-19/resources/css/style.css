@@ -116,6 +116,10 @@ section header .heading-box-text-primary{
     margin-top: 30px;
 }
 
+footer .font-mobile{
+	font-size: 1rem;
+}
+
 
 /*.container-form{
 	display: grid;
