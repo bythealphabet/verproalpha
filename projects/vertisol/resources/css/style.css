@@ -28,10 +28,19 @@ body{
 		/*max-width: 960px;*/
 }
 
-header{
+.index header{
 	/*background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.4), rgba(211, 215, 218,.2)), url(cssimg/6.jpg);*/
 	height: 80vh;
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,0.5), rgba(0, 0, 0,.2)), url(cssimg/terrace-awning.jpg);
+	background-size: cover;
+	background-position: right top;
+    background-attachment: fixed;
+}
+
+.wood-blinds header{
+	/*background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.4), rgba(211, 215, 218,.2)), url(cssimg/6.jpg);*/
+	height: 80vh;
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/12.jpg);
 	background-size: cover;
 	background-position: right top;
     background-attachment: fixed;
@@ -248,13 +257,37 @@ section header .heading-box-text-primary{
 	opacity: 1;
 }   
 
-.product-text, .left-nav,.product-image{
+.product-gallery, .left-nav,.product-image{
 	border: solid;
 	height: 800px;
 
 }
 
+.product-gallery{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr)
+}
 
+.gallery-grid{
+	display: grid;
+	
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 5px;
+}
+
+.gallery-grid > figure > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-header-text{
+	background-color: rgba(181,13,13,.7);
+	color: #fff;
+	/*border-radius: 10px;*/
+	padding: 6%;
+}
 
 
 
