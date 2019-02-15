@@ -289,7 +289,17 @@ section header .heading-box-text-primary{
 	padding: 6%;
 }
 
+.item-image{
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
 
+.item-image img{
+	width: 100%;
+	height: 100%;
+
+}
 
   
 footer .font-mobile{
