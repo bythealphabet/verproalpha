@@ -28,13 +28,6 @@ body{
 		/*max-width: 960px;*/
 }
 
-.index header,.wood-blinds header,.roller-shades header,.vertical_blinds header,.roman_shades header {
-	height: 80vh;
-	background-size: cover;
-	background-position: right top;
-    background-attachment: fixed;
-}
-
 .index header{
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,0.5), rgba(0, 0, 0,.2)), url(cssimg/terrace-awning.jpg);
 }
@@ -56,7 +49,27 @@ body{
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/18.jpg);
 }
 
+.pleated_shades header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/10.jpg);
+}
 
+.sliding-panels header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/2.jpg);
+}
+
+
+.index header,
+.wood-blinds header,
+.roller-shades header,
+.vertical_blinds header,
+.roman_shades header,
+.pleated_shades header,
+.sliding-panels header{
+	height: 80vh;
+	background-size: cover;
+	background-position: right top;
+    background-attachment: fixed;
+}
 
 /*NAVIGATION Items in the header--------- start--------*/
 
