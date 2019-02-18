@@ -28,40 +28,32 @@ body{
 		/*max-width: 960px;*/
 }
 
-.index header{
-	/*background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.4), rgba(211, 215, 218,.2)), url(cssimg/6.jpg);*/
+.index header,.wood-blinds header,.roller-shades header,.vertical_blinds header,.roman_shades header {
 	height: 80vh;
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,0.5), rgba(0, 0, 0,.2)), url(cssimg/terrace-awning.jpg);
 	background-size: cover;
 	background-position: right top;
     background-attachment: fixed;
+}
+
+.index header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,0.5), rgba(0, 0, 0,.2)), url(cssimg/terrace-awning.jpg);
 }
 
 .wood-blinds header{
-	/*background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.4), rgba(211, 215, 218,.2)), url(cssimg/6.jpg);*/
-	height: 80vh;
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/12.jpg);
-	background-size: cover;
-	background-position: right top;
-    background-attachment: fixed;
+	
 }
 
 .roller-shades header{
-	/*background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.4), rgba(211, 215, 218,.2)), url(cssimg/6.jpg);*/
-	height: 80vh;
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/0.jpg);
-	background-size: cover;
-	background-position: right top;
-    background-attachment: fixed;
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/0.jpg);	
 }
 
 .vertical_blinds header{
-	/*background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.4), rgba(211, 215, 218,.2)), url(cssimg/6.jpg);*/
-	height: 80vh;
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/1.jpg);
-	background-size: cover;
-	background-position: right top;
-    background-attachment: fixed;
+}
+
+.roman_shades header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/18.jpg);
 }
 
 
