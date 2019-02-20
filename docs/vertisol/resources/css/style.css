@@ -57,6 +57,18 @@ body{
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/2.jpg);
 }
 
+.retractable_awnings header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/5.jpg);
+}
+
+.drop_arm_awnings header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/8.jpg);
+}
+
+.canopies header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/9.jpg);
+	background-position: right center;
+}
 
 .index header,
 .wood-blinds header,
@@ -64,7 +76,11 @@ body{
 .vertical_blinds header,
 .roman_shades header,
 .pleated_shades header,
-.sliding-panels header{
+.sliding-panels header,
+.retractable_awnings header,
+.drop_arm_awnings header,
+.canopies header
+{
 	height: 80vh;
 	background-size: cover;
 	background-position: right top;
@@ -322,6 +338,11 @@ footer .font-mobile{
 	header .title.is-1 {
 		font-weight: 300;
 	    font-size: 7rem;
+	}
+
+	header .title.is-2 {
+		font-weight: 300;
+	    font-size: 5rem;
 	}
 	header .subtitle.is-3 {
 	    font-size: 4rem;
