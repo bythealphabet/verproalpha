@@ -138,13 +138,24 @@ body{
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 1.3rem;
-	padding: 1.5rem;
+	padding: 1.2rem;
 }
 
 .navbar-item img {
    width: 200px;
-   height: 65.5px;
+   max-height: auto;
 }
+
+.navbar-item #solar img{
+   width: 200px;
+   max-height: 100%;
+}
+
+.logo-text{
+	padding: 5%;
+}
+
+
 
 /*nav .navbar-item .text-box{
 	margin-top: 20px;
