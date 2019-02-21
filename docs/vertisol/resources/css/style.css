@@ -142,8 +142,8 @@ body{
 }
 
 .navbar-item img {
-   width: 200px;
-   max-height: auto;
+   width: 160px;
+   max-height:70%;
 }
 
 .navbar-item #solar img{
@@ -225,8 +225,15 @@ section header .heading-box-text-primary{
 }
 
 .vertisol-logo .image{
-	width: 20%;
-	max-height: auto;
+	width: 15%;
+	max-height: 100%;
+}
+
+.vertisol-logo-index .image{
+	margin-bottom: 2%;
+	margin-right: 4%;
+	width: 30%;
+	max-height: 100%;
 }
 
 #index-gallery{
@@ -282,9 +289,13 @@ section header .heading-box-text-primary{
 
 .product-box{
     position:relative; /*this is the key*/
+    width: 100%
+    max-height: 100%;
   }
 
 .product-box h3{
+	width: 100%;
+	height: 100%;
 	opacity: 0;
 	position: absolute;
 	top: 50%;
@@ -307,14 +318,15 @@ section header .heading-box-text-primary{
 
 .product-box:hover .single-product-text{
 	background-color:#538BDE;
+	width: 100%;
+	height: 100%;
     display:block;
     position:absolute;
-	opacity: 0.8;
+	opacity: 0.5;
   }
 
   .product-box:hover h3{
-  	padding: 1rem;
-	border: 0.5px solid #fff;
+  	padding: 2rem;
 	opacity: 1;
 }   
 
