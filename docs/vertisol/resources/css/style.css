@@ -65,9 +65,29 @@ body{
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/8.jpg);
 }
 
+.shade_sails header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/4.jpg);
+}
+
+.vertical_drop header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/3.jpg);
+	background-position: right center;
+	
+}
+
 .canopies header{
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/9.jpg);
 	background-position: right center;
+}
+
+.umbrellas header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/11.jpg);
+	
+}
+
+.custom header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/19.jpg);
+	
 }
 
 .index header,
@@ -79,12 +99,32 @@ body{
 .sliding-panels header,
 .retractable_awnings header,
 .drop_arm_awnings header,
-.canopies header
+.canopies header,
+.shade_sails header,
+.vertical_drop header,
+.umbrellas header,
+.custom header
 {
 	height: 80vh;
 	background-size: cover;
 	background-position: right top;
     background-attachment: fixed;
+}
+
+.custom header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/19.jpg);
+	background-position: center;
+}
+
+.canopies header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/9.jpg);
+	background-position: right center;
+}
+
+.vertical_drop header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/3.jpg);
+	background-position: right center;
+	
 }
 
 /*NAVIGATION Items in the header--------- start--------*/
