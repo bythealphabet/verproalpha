@@ -1,14 +1,18 @@
+/*Drk color #1B1D1F*/
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 100%;
 	font: inherit;
+	/*vertical-align: baseline;*/
+	/*overflow-x:hidden;*/
 }
 
 html,
 body{
-	width: 100;
+	width: 99%;
 	margin: 0;
 	padding: 0 ;
 	background-color: #fff;
@@ -17,41 +21,20 @@ body{
 	font-size: 1.2rem;
 }
 
-.dcenter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+.centergrid{
+		display: grid;
+		justify-content: center;
+		/*max-width: 960px;*/
 }
-
-
-
-/*NAVIGATION Items in the header--------- start--------*/
-
-.navbar-item img {
-   width: 160px;
-   max-height:90%;
-}
-
-.navbar-item #solar img{
-   width: 200px;
-}
-
-/*NAVIGATION Items in the header--------- end--------*/
-
-
-
-
-/************Hero Images**************/
-
 
 .index header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,0.5), rgba(0, 0, 0,.2)), url(cssimg/12.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,0.5), rgba(0, 0, 0,.2)), url(cssimg/terrace-awning.jpg);
 }
 
 .wood-blinds header{
@@ -127,7 +110,7 @@ body{
 .umbrellas header,
 .custom header
 {
-	height: 70vh;
+	height: 80vh;
 	background-size: cover;
 	background-position: right top;
     background-attachment: fixed;
@@ -149,32 +132,120 @@ body{
 	
 }
 
-/************HERO Images  END**************/
+/*NAVIGATION Items in the header--------- start--------*/
+
+/*#sectionNav{
+	position: fixed;
+}*/
 
 
-/************HERO TEXT  **************/
+#sectionNav{
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 1.3rem;
+	padding: 1.2rem;
+}
+
+.navbar-item img {
+   width: 160px;
+   max-height:90%;
+}
+
+.navbar-item #solar img{
+   width: 200px;
+}
+
+
+
+
+
+/*nav .navbar-item .text-box{
+	margin-top: 20px;
+}*/
+
+/*nav .navbar-item .text-box .text-primary,
+nav .navbar-item .text-box .text-sub{
+	font-family: "Times Romans";
+	text-transform: capitalize;
+	font-weight: 100;
+	display: block;
+}*/
+
+/*nav .navbar-item .text-box .text-primary{
+	font-size: 3rem;
+}*/
+
+/*nav .navbar-item .text-box .text-sub{
+	font-size: 25px;
+	margin-left: 100px;
+}*/
+/*NAVIGATION Items in the header--------- end--------*/
+
+/*HEADING TITLES in the header------------start-------*/
+
+.hero{
+	padding: 0 5%;
+}
+
 header .title.is-1 {
 	font-weight: 300;
-    font-size: 8rem;
+    font-size: 3rem;
 }
 header .subtitle.is-3 {
     font-size: 2rem;
 }
-
-/************HERO END  **************/
-
-/*Sign Up Section and Map-----------------*/
-
-iframe{
-	width: 400px;
-	height: 400px;
+section header .heading-box-text-primary{
+	font-size: 10rem;
 }
 
-/*Sign Up Section and Map--------END---------*/
+ .heading-box-text-sub{
+	font-size: 5rem;
+	font-weight: 300;
+	margin-left: 1px;
+	width: 60%;
+}
 
-/*ANIMATIONS-----------------------------*/
+	
+.heading-box .title, .heading-box .subtitle {
+	color: #ffff;
+}
 
-/*SUBTILE HOVER*/
+/*HEADING TITLES in the header------------end-------*/
+
+.stripe:after {
+    display: block;
+    height: 2px;
+    background-color: #1B1D1F;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.solar-gard-logo .image{
+	width: 30%;
+}
+
+.vertisol-logo .image{
+	width: 15%;
+	max-height: 100%;
+}
+
+.vertisol-logo-index .image{
+	margin-bottom: 2%;
+	margin-right: 4%;
+	width: 30%;
+	max-height: 100%;
+}
+
+#index-gallery{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	max-width: 960px
+}
+
+
 .anime {
 	/*opacity: 0.7;*/
     /*box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);*/
@@ -189,9 +260,34 @@ iframe{
 	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
 	transform: scale(1.05);
 }
-/*SUBTILE HOVER ------END*/
 
-/*Blue Background Hover**********************/
+
+
+
+
+
+.composition__photo {
+    /*width: 55%;*/
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 1px;
+    z-index: 10;
+    transition: all 1.5s;
+    outline-offset: .5rem; 
+}
+
+.composition__photo:hover {
+      outline: .3rem solid #416ACA;
+      transform: scale(2) translateY(-0.5rem);
+    	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+      z-index: 20;
+}
+
+.composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.9);
+}
+
+
+
 
 .product-box{
     position:relative; /*this is the key*/
@@ -236,16 +332,6 @@ iframe{
 	opacity: 1;
 }   
 
-.text-box-bottom{
-	padding: .5rem;
-	border-left: solid .5px #ccc;
-	border-bottom: solid .5px #ccc;
-}
-
-
-/*ANIMATIONS-------------END----------------*/
-
-/*Single Products Windows Modal's, Animations etc*/
 .product-gallery, .left-nav,.product-image{
 	border: solid;
 	height: 800px;
@@ -301,73 +387,59 @@ iframe{
 .buying-process{
 	font-size: 1rem;
 }
+  
+footer .font-mobile{
+	font-size: 1rem;
+}
 
-@media only screen and (max-width: 1200px) {
-	
-	body{
-		/*background-color: blue;*/
+
+
+
+@media only screen and (min-width: 600px) {
+
+/*	.navbar-item img {
+   width: 160px;
+   max-height:90%;
+}
+
+.navbar-item #solar img{
+   width: 200px;
+}*/
+
+	header .heading-box{
+		background-color: blue;
+		margin-top: 5rem;
 	}
 
-	header .title.is-1 {
+	header .title .is-1 {
 		font-weight: 300;
 	    font-size: 6rem;
 	}
 
-	header .subtitle.is-3 {
-    	font-size: 2rem;
-	}
-
-	iframe{
-		width: 250px;
-		height: 300px;
-	}
-
-}
-
-
-@media only screen and (max-width: 500px) {
-	
-	body{
-		/*background-color: blue;*/
-	}
-
-	.index header,
-	.wood-blinds header,
-	.roller-shades header,
-	.vertical_blinds header,
-	.roman_shades header,
-	.pleated_shades header,
-	.sliding-panels header,
-	.retractable_awnings header,
-	.drop_arm_awnings header,
-	.canopies header,
-	.shade_sails header,
-	.vertical_drop header,
-	.umbrellas header,
-	.custom header
-	{
-		height: 75vh;
-		background-size: cover;
-		background-position: top;
-	    background-attachment: fixed;
-	}
-
-	header .title.is-1 {
+	header .title.is-2 {
 		font-weight: 300;
-	    font-size: 4rem;
+	    font-size: 5rem;
 	}
-
 	header .subtitle.is-3 {
-    	font-size: 2rem;
+	    font-size: 3rem;
+	}
+	section header .heading-box-text-primary{
+		font-size: 20rem;
 	}
 
-	iframe{
-		width: 290px;
-		height: 200px;
+	 .heading-box-text-sub{
+		font-size: 5rem;
+		font-weight: 300;
+		margin-top: 100px
+		margin-left: 1px;
+		width: 60%;
+	}
+
+	.ver{
+		display: block;
+	}
+	.sol{
+		display: block;
 	}
 
 }
-
-
-
-
