@@ -201,9 +201,13 @@ iframe{
 
 .product-box{
     position:relative; /*this is the key*/
-    width: 100%
+    width: 100%;
     max-height: 100%;
   }
+
+.product-box img{
+	border: solid #538BDE;
+}
 
 .product-box h3{
 	width: 100%;
@@ -212,9 +216,9 @@ iframe{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	font-weight: 100;
+	font-weight: 300;
 	transform: translate(-50%, -50%);
-	transition: 0.9s;
+	transition: 0.98s;
 	/*-webkit-backface-visibility: hidden;*/
 	/*-webkit-transform: translateZ(0);*/
 }
@@ -242,6 +246,14 @@ iframe{
   	padding: 3rem;
 	opacity: 1;
 }   
+
+.product-box:hover img{
+	border: solid white;
+}
+
+.product-box:hover .product-box img{
+	border: solid #fff;
+}
 
 .text-box-bottom{
 	padding: .5rem;
@@ -400,6 +412,11 @@ iframe{
 		width: 290px;
 		height: 200px;
 	}
+
+	.products-area-gallery{
+		width: 100vw;
+	}
+
 
 
 }
