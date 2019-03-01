@@ -212,6 +212,7 @@ iframe{
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	font-weight: 100;
 	transform: translate(-50%, -50%);
 	transition: 0.9s;
 	/*-webkit-backface-visibility: hidden;*/
@@ -234,11 +235,11 @@ iframe{
 	height: 100%;
     display:block;
     position:absolute;
-	opacity: 0.5;
+	opacity: 0.8;
   }
 
   .product-box:hover h3{
-  	padding: 2rem;
+  	padding: 3rem;
 	opacity: 1;
 }   
 
