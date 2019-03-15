@@ -117,6 +117,11 @@ body{
 	
 }
 
+.carports header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/13.jpg);
+	
+}
+
 .index header,
 .wood-blinds header,
 .roller-shades header,
@@ -131,7 +136,8 @@ body{
 .vertical_drop header,
 .umbrellas header,
 .custom header,
-.roller_shutter header
+.roller_shutter header,
+.carports header
 {
 	height: 90vh;
 	background-size: cover;
@@ -387,7 +393,8 @@ iframe{
 	.vertical_drop header,
 	.umbrellas header,
 	.custom header,
-	.roller_shutter header
+	.roller_shutter header,
+	
 	{
 		height: 65vh;
 		background-size: cover;
@@ -395,8 +402,9 @@ iframe{
 	    background-attachment: fixed;
 	}
 	
-	.umbrellas header{
-		background-position: center;
+	.carports header{
+		transform: scale(.8);
+		background-position: 80% center; 
 
 	}
 
