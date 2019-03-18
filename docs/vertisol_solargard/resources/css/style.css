@@ -224,10 +224,10 @@ iframe{
 
 /*Blue Background Hover**********************/
 
-div .product-box{
-	max-height: 280px;  
+div.product-box{
+	/*max-height: 280px;  */
     position:relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
 
 .columns h3{
@@ -351,7 +351,7 @@ div .product-box{
 
 @media screen and (min-width:768px) and (max-width:1471px){
    .product-box h3{
-		bottom: 0%;
+		bottom: 10%;
 		left: 10%;
 
 		
