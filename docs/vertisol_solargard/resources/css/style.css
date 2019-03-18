@@ -79,13 +79,9 @@ body{
 	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/7.jpg);
 }
 
-.mini_blinds header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/8.jpg);
-	
-}
 
 .neolux header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/8.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/0.jpg);
 	
 }
 
@@ -225,9 +221,7 @@ iframe{
 /*Blue Background Hover**********************/
 
 div.product-box{
-	/*max-height: 280px;  */
     position:relative;
-    /*overflow: hidden;*/
   }
 
 .columns h3{
@@ -360,34 +354,8 @@ div.product-box{
 
 
 
-/*@media only screen and (max-width: 1270px) {
-	
-	body{
-		background-color: blue;
-	}
-
-	header .title.is-1 {
-		font-weight: 300;
-	    font-size: 6rem;
-	}
-
-	header .subtitle.is-3 {
-    	font-size: 2rem;
-	}
-
-	iframe{
-		width: 250px;
-		height: 300px;
-	}
-
-}*/
-
-
 @media only screen and (max-width: 500px) {
 	
-	body{
-		/*background-color: blue;*/
-	}
 
 	.index header,
 	.wood-blinds header,
@@ -443,9 +411,6 @@ div.product-box{
     height: 80%;
     width: 80%;
   }
-
-
-
 
 }
 
