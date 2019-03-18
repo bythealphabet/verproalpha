@@ -51,76 +51,82 @@ body{
 
 
 .index header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,0.5), rgba(0, 0, 0,.2)), url(cssimg/12.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,0.5), rgba(0, 0, 0,.2)), url(cssimg/3.jpg);
 }
 
 .wood-blinds header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/12.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.5), rgba(0, 0, 0,.3)), url(cssimg/2.jpg);
 	
 }
 
 .roller-shades header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/0.jpg);	
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/3.jpg);	
 }
 
 .vertical_blinds header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/1.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/4.jpg);
 }
 
 .roman_shades header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/18.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/5.jpg);
 }
 
 .pleated_shades header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/10.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.2), rgba(0, 0, 0,.1)), url(cssimg/6.jpg);
 }
 
 .sliding-panels header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/2.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/7.jpg);
+}
+
+.mini_blinds header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/8.jpg);
+	
+}
+
+.neolux header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/8.jpg);
+	
 }
 
 .retractable_awnings header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/5.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/11.jpg);
 }
 
 .drop_arm_awnings header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/8.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/12.jpg);
 }
 
 .shade_sails header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/4.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/13.jpg);
 }
 
 .vertical_drop header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/3.jpg);
-	background-position: right center;
-	
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/14.jpg);
+	background-position: right center;	
 }
 
-.canopies header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/9.jpg);
-	background-position: right center;
-}
 
 .umbrellas header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/11.jpg);
-	
-}
-
-.custom header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/19.jpg);
-	
-}
-
-.roller_shutter header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/41.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/16.jpg);
 	
 }
 
 .carports header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/13.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/17.jpg);
 	
 }
+
+.custom header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/18.jpg);
+	
+}
+
+.roller_shutter header{
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/21.jpg);
+	
+}
+
 
 .index header,
 .wood-blinds header,
@@ -137,7 +143,8 @@ body{
 .umbrellas header,
 .custom header,
 .roller_shutter header,
-.carports header
+.carports header,
+.neolux header
 {
 	height: 90vh;
 	background-size: cover;
@@ -146,19 +153,33 @@ body{
 }
 
 .custom header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/19.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/19.jpg);
 	background-position: center;
 }
 
 .canopies header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/9.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/15.jpg);
 	background-position: right center;
 }
 
 .vertical_drop header{
-	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.8), rgba(0, 0, 0,.3)), url(cssimg/3.jpg);
+	background-image: linear-gradient(to right, rgba(51, 58.8, 76.5,.3), rgba(0, 0, 0,.3)), url(cssimg/3.jpg);
 	background-position: right center;
 	
+}
+
+
+.product-heading{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.product-heading h1{
+	font-weight: 300;
+}
+
+.product-heading h2{
+	font-weight: 300;
 }
 
 /************HERO Images  END**************/
@@ -188,8 +209,6 @@ iframe{
 
 /*SUBTILE HOVER*/
 .anime {
-	/*opacity: 0.7;*/
-    /*box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);*/
     z-index: 2;
 	width: 100%;
 	height: auto;
@@ -205,62 +224,46 @@ iframe{
 
 /*Blue Background Hover**********************/
 
-.product-box{
-	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
-    position:relative; /*this is the key*/
-    width: 100%;
-    max-height: 100%;
+div .product-box{
+	max-height: 280px;  
+    position:relative;
+    overflow: hidden;
   }
 
-.product-box img{
-	border: solid #538BDE;
-}
-
-.product-box h3{
-	width: 100%;
-	height: 100%;
+.columns h3{
+	width: 80%;
 	opacity: 0;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	bottom: 8%;
+	left: 10%;
 	font-weight: 300;
-	transform: translate(-50%, -50%);
-	transition: 0.98s;
-	/*-webkit-backface-visibility: hidden;*/
-	/*-webkit-transform: translateZ(0);*/
+	transition: 0.3s;
 }
 
 .product-box .single-product-text{  
+	background-color:#538BDE;
 	position: absolute;
-	top:0;
-	left: 0;
+	bottom:6%;
+	left: 4%;
     opacity: 0; 
-	width: 100%;
-	height: 100%;
-	transition: 0.8s;
+	width: 92%;
+	height: 30%;
+	transition: 0.4s;
 }
+
 
 .product-box:hover .single-product-text{
 	background-color:#538BDE;
-	width: 100%;
-	height: 100%;
-    display:block;
     position:absolute;
-	opacity: 0.8;
+	opacity: 0.9;
   }
 
   .product-box:hover h3{
-  	padding: 3rem;
+  	/*transform: translate(-38%, -40%);*/
+  	 z-index: 2;
+  	font-weight: 300;
 	opacity: 1;
 }   
-
-.product-box:hover img{
-	border: solid white;
-}
-
-.product-box:hover .product-box img{
-	border: solid #fff;
-}
 
 .text-box-bottom{
 	padding: .5rem;
@@ -346,11 +349,18 @@ iframe{
 	font-size: 1rem;
 }
 
+@media screen and (min-width:768px) and (max-width:1471px){
+   .product-box h3{
+		bottom: 0%;
+		left: 10%;
+
+		
+	}
+}
 
 
 
-
-/*@media only screen and (max-width: 1200px) {
+/*@media only screen and (max-width: 1270px) {
 	
 	body{
 		background-color: blue;
@@ -384,7 +394,6 @@ iframe{
 	.roller-shades header,
 	.vertical_blinds header,
 	.roman_shades header,
-	.pleated_shades header,
 	.sliding-panels header,
 	.retractable_awnings header,
 	.drop_arm_awnings header,
@@ -393,13 +402,17 @@ iframe{
 	.vertical_drop header,
 	.umbrellas header,
 	.custom header,
-	.roller_shutter header,
-	
+	.roller_shutter header
 	{
 		height: 65vh;
 		background-size: cover;
 		background-position: center;
 	    background-attachment: fixed;
+	}
+
+	.pleated_shades header{
+		transform: scale(.8);
+		background-position: top center;
 	}
 	
 	.carports header{
@@ -425,6 +438,12 @@ iframe{
 	.products-area-gallery{
 		width: 100vw;
 	}
+	
+	div .product-box{
+    height: 80%;
+    width: 80%;
+  }
+
 
 
 
